@@ -1,0 +1,35 @@
+{
+  "name": "tickets-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "alex1tut@mail.ru",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "test": "mocha --require @babel/register tests/**/*.spec.js",
+    "lint": "node_modules/.bin/eslint . --ext .js --fix"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "pusher": "^2.2.0",
+    "sequelize": "^5.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "eslint": "^5.16.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^6.1.2",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "supertest": "^4.0.2"
+  }
+}

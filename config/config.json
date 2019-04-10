@@ -1,0 +1,44 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "tickets",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+        "timestamps": false
+    },
+    "pusher": {
+      "appId": "749212",
+      "appKey": "9a46d976311a4b4ae129",
+      "appSecret": "6523633aefd15fa94e6f",
+      "cluster": "eu"
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "tickets",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pusher": {
+      "appId": "749212",
+      "appKey": "9a46d976311a4b4ae129",
+      "appSecret": "6523633aefd15fa94e6f",
+      "cluster": "eu"
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "tickets",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "pusher": {
+      "appId": "749212",
+      "appKey": "9a46d976311a4b4ae129",
+      "appSecret": "6523633aefd15fa94e6f",
+      "cluster": "eu"
+    }
+  }
+}
